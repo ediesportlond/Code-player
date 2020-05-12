@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif; 
+    font-size: 14pt;
+    margin: 0;
+}
+header{
+    background-color: #eee;
+    display: flex;
+    padding: 20px;
+}
+#logo{
+    font-weight: bold;
+    font-size: 1.75em;
+}
+#menu{
+    margin: 0 auto;
+    text-align: center;
+    width:250px;
+    display: flex;
+    border-radius: 10px;
+}
+#menu div{
+    padding:12px;
+    border: 1px solid gray;
+}
+#menu div:hover{
+    background-color: #3b5998;
+    color: white;
+}
+.active{
+    color: white;
+    background-color: gray;
+}
+#html{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#css{
+    border-left: none;
+}
+#javascript{
+    border-left: none;
+}
+#output{
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+textarea{
+    resize: none;
+    width: 49%;
+    float: left; 
+}
+#cssText{
+    display: none;
+    clear: left;
+}
+#javascriptText{
+    display: none;
+    clear: left;
+}
+iframe{
+    width: 50%;
+    float: right;
+    border: none;
+}
